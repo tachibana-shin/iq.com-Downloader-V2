@@ -126,7 +126,7 @@ def choose_lang():
     choice = int(input('\nChoice: '))
     
     if choice > 10 or choice < 1:
-        return choose_res()
+        return choose_lang()
     
     l = ['en_us', 'zh_cn', 'zh_tw', 'id_id', 'ms_my', 'th_th', 'vi_vn', 'ja', 'pt_br', 'es_mx']
     
